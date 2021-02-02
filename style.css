@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+a {color: black; text-decoration: none;}
+h1 { font-size: 50px;text-align:center;
+  border-bottom: black solid medium;
+  padding:10px; margin-bottom: 0;margin-top:0;font-family: 'Lobster', cursive;
+}
+h2{background-color: powderblue;color:#494c51;}
+body {font-family: 'Nanum Gothic', sans-serif;}
+a{color:#494c51;}
+
+.basic {border-right-style: dotted; border-right-color: black; border-right--width: thick;
+display:inline-block;padding: 20px; padding-left: 40px; padding-right: 40px; font-size: 20px; font-weight: bold; background-color:rgba(218,213,219,10);}
+#active{color:red;}
+#grid {display:grid;
+grid-template-columns: 1fr 2fr;}
+@media(max-width:600px)
+{#grid {display:block;}
+.basic {border-right: none;}
+h1{border-bottom: none;}
